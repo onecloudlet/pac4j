@@ -26,7 +26,7 @@ public interface Client<C extends Credentials, U extends CommonProfile> {
 
     /**
      * Get the name of the client.
-     * 
+     * 得到客户的名字
      * @return the name of the client
      */
     String getName();
